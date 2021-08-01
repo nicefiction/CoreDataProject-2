@@ -13,6 +13,8 @@
 		0969831426B66729003976FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0969831326B66729003976FA /* Preview Assets.xcassets */; };
 		0969831626B66729003976FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969831526B66729003976FA /* Persistence.swift */; };
 		0969831926B66729003976FA /* CoreDataProject_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0969831726B66729003976FA /* CoreDataProject_2.xcdatamodeld */; };
+		0969832326B66967003976FA /* ForEachAndSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969832226B66967003976FA /* ForEachAndSelf.swift */; };
+		0969832626B66CD7003976FA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969832526B66CD7003976FA /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0969831526B66729003976FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0969831826B66729003976FA /* CoreDataProject_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject_2.xcdatamodel; sourceTree = "<group>"; };
 		0969831A26B66729003976FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0969832226B66967003976FA /* ForEachAndSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachAndSelf.swift; sourceTree = "<group>"; };
+		0969832526B66CD7003976FA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		0969830B26B66726003976FA /* CoreDataProject 2 */ = {
 			isa = PBXGroup;
 			children = (
+				0969832126B6692B003976FA /* Day 57 */,
 				0969830C26B66726003976FA /* CoreDataProject_2App.swift */,
 				0969830E26B66726003976FA /* ContentView.swift */,
 				0969831026B66729003976FA /* Assets.xcassets */,
@@ -73,6 +78,15 @@
 				0969831326B66729003976FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0969832126B6692B003976FA /* Day 57 */ = {
+			isa = PBXGroup;
+			children = (
+				0969832226B66967003976FA /* ForEachAndSelf.swift */,
+				0969832526B66CD7003976FA /* Student.swift */,
+			);
+			path = "Day 57";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0969831626B66729003976FA /* Persistence.swift in Sources */,
+				0969832626B66CD7003976FA /* Student.swift in Sources */,
+				0969832326B66967003976FA /* ForEachAndSelf.swift in Sources */,
 				0969831926B66729003976FA /* CoreDataProject_2.xcdatamodeld in Sources */,
 				0969830F26B66726003976FA /* ContentView.swift in Sources */,
 				0969830D26B66726003976FA /* CoreDataProject_2App.swift in Sources */,
